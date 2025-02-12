@@ -1,0 +1,121 @@
+[
+{   
+"Maker":"Loser_123_zbx(Zjang Studio)",
+"Version":"1.0",
+"Language":"中文:中国",
+
+"Laucher_Texts":["123Excel","开源,免费,开放,高效"],
+"Laucher_Buttons":["启动","设置","更新日志","文件转换","帮助","关于"],
+"Laucher_Messages_Hader":["消息"],
+"Laucher_Messages":[""],
+
+"Main_Texts":["主选项","输入科目","输入最高分数","输入最低分数","学生列","函数","学科行"],
+"Main_Buttons":["打开文件","读取","查找某学生分数","最高分","平均分","最低分","按分数排列","添加排名","自定义","运行函数"],
+"Main_message_Hader":["错误","提示"],
+"Main_Messages":["错误！\n使用方式问题或是123的代码漏洞\n详见崩溃日志(crash_log.txt)\n找他人排查问题不要发送本界面，\n而是发送崩溃日志","任务执行完毕，\n返回值在右侧终端内"],
+
+"Converter_Texts":["123Excel","-文件转换","文件路径"],
+"Converter_Buttons":["转换","-转-"],
+"Converter_message_Hader":["错误","提示"],
+"Converter_Messages":["转换失败，请检查文件格式是否正确","转换成功"],
+
+"Options_Texts":["选项","保存","颜色","语言","版本","调试",""],
+"Options_message_Hader":["提示"],
+"Options_Messages":[""]
+
+},
+{   
+"Maker":"Loser_123_zbx(Zjang Studio)",
+"Version":"1.0",
+"Language":"文言：華夏",
+
+"Laucher_Texts":["123Excel","源,简,开,效"],
+"Laucher_Buttons":["123Excel","更新志","转文","助","关"],
+"Laucher_Messages_Hader":["息"],
+"Laucher_Messages":[""],
+
+"Main_Texts":["主项","填科项","填至高分","填至卑分","弟子列","函","科行"],
+"Main_Buttons":["启文","读","求某弟子分数","至高分","平均分","至卑分","以分排","添排名","自定","行函",""],
+"Main_message_Hader":["误","提示"],
+"Main_Messages":["误! \n用法或123之代码误\n详参崩溃日志(crash_log.txt)\n求人排查勿予本界面,\n予溃日志","事毕,\n还直右终端内"],
+
+"Converter_Texts":["123Excel","-文转","文径"],
+"Converter_Buttons":["转换","-转-"],
+"Converter_message_Hader":["误","示"],
+"Converter_Messages":["转败,请检文件格式是否","转毕"],
+
+"Options_Texts":["项","色","语","版","调",""],
+"Options_Buttons":["配置径","存","色","语","版","调",""],
+"Options_message_Hader":["示"],
+"Options_Messages":[""]
+
+},
+{
+"Maker":"Bao(Zjang Studio)",
+"Version":"1.0",
+"Language":"English:US",
+"Laucher_Texts":["123Excel"," Open source free Open,efficient"],
+"Laucher_Buttons":["Start","123Excel","Update Logs","File Conversion","Help", "About"],
+"Laucher_Messages_Hader":[" message "],            
+"Laucher_Messages":[""],
+"Main_Texts":["main option", "input section","Enter the highest score","enter the lowest score", "Learn Generation column","function","subject row"],
+"Main_Buttons":["Open file ", "Read", "Find a student score", "Highest score", "Average score", "lowest score", "Sort by score", "Add ranking", "Custom","Run function",""],
+"Main_message_Hader":["Error","Info"],
+"Main_Messages":["Error! \n Usage Mode The problem \n or code vulnerability of 123 can be found in crash log (crash_log.txt). \nIn asking to find others to troubleshoot the problem,\ndo not send this interface, but send crash log ","the task is completed, several return values are in the right terminal"],
+"Converter_Texts": ["123Excel","- File TransferChange ","file path"],
+"Converter_Buttons":["Convert", "-rev-"], 
+"Converter_message_Hader":["Error","mentionedAs shown in,Converter_Messages"," Conversion failed, please Check if the file format is correct","conversion succeeded"],
+
+"Options_Texts":["Options","Color","Language","Version","Debug",""],
+"Options_Buttons":["Json_path","Save","Color","Language","Version","Debug",""],
+"Options_message_Hader":["Info"],
+"Options_Messages":[""]
+},
+{   
+"Maker":"Loser_123_zbx awa(Zjang Studio)",
+"Version":"1.0",
+"Language":"中文-可爱awa:中国",
+
+"Laucher_Texts":["123Excel","开源,免费,开放,高效"],
+"Laucher_Buttons":["启动(づ￣ 3￣)づ","更新日志(❁´◡`❁)","文件转换~","帮助~","喵~"],
+"Laucher_Messages_Hader":["消息》"],
+"Laucher_Messages":[""],
+
+"Main_Texts":["主","输入科目ヾ(^▽^*)))","输入最高分数(*/ω＼*)","输入最低分数(*/ω＼*)","学生列","函数喵~","学科行~"],
+"Main_Buttons":["打开文件(*/ω＼*)","读取我╰(*°▽°*)╯","查找某学生分数(ewe)","最高分-wa","平均分awa","最低分aw-","按分数排列","添加排名-w-","自定义~","运行~>w<"],
+"Main_message_Hader":["错误(┬┬﹏┬┬)","提示(⊙_⊙;)"],
+"Main_Messages":["错误！\n使用方式问题或是123的代码漏洞\n详见崩溃日志(crash_log.txt)喵~\n找他人排查问题不要发送本界面，\n而是发送崩溃日志","任务执行完毕喵！，\n返回值在右侧终端内"],
+
+"Converter_Texts":["123Excel","-文件转换","文件路径"],
+"Converter_Buttons":["-转-","XLS转XLSX"],
+"Converter_message_Hader":["错误","提示"],
+"Converter_Messages":["转换失败，请检查文件格式是否正确~~~","转换成功"],
+
+"Options_Texts":["选项~","颜色~❤","语~言","版~本","调~试",""],
+"Options_Buttons":["配置路径","保存~","颜色~","语~言","版~本","调~试",""],
+"Options_message_Hader":["提示"],
+"Options_Messages":[""]
+
+},
+{
+"Maker": "Wang (Zjang Studio)", 
+"Version":"1.0", 
+"Language":"Russian:RU",
+"Laucher_Texts": ["123Excel", "Open Source, Free, Open, Efficient"],
+"Laucher_Buttons": ["Запуск","123Excel", "Обновление журнала", "Преобразование файла", "Справка", "О"],
+"Laucher_Messages_Hader": ["Сообщение"], 
+"Laucher_Messages": [""], 
+"Main_Texts": ["Основные параметры", "Введите предметы", "Введите наивысший балл", "Введите наименьший балл", "Следующий", "Функция", "порядок дисциплин"], 
+"Main_Buttons": ["Открыть файл", "Читать", "Найти балл для учащегося", "Самый высокий балл", "Средставление по баллам", "Добавить ранжирование", "Настройка", "Запуск функции"], 
+"Main_message_Hader": ["Ошибка", "подсказка"], 
+"Main_Messages": ["Ошибка!,Проблема с использованием или уязвимость в коде 123 \n Подробнее см. в журнале сбоев (crash_log.txt) \n Найти других для устранения неполадок Не отправляйте этот интерфейс, \n отправляйте журнал сбоев","Задача выполнена,возвращаются значения в правом терминале"], 
+"Converter_Texts": ["123Excel","-файлы преобразования", "Файлы пути"], 
+"Converter_Buttons": ["Конвертирование", "-верти-"],
+"Converter_message_Hader": ["Ошибка", "показано как в"], 
+"Converter_Messages": ["Преобразование не удалось, пожалуйста, проверьте, правильный ли формат файла", "Преобразование выполнено"], 
+"Options_Texts": ["Параметры", "Цвет", "Язык", "Версия", "Отладка", ""], 
+"Options_Buttons": ["Путь к файлу", "Сохранить", "Цвет", "Язык", "Версия", "Отладка", ""],
+"Options_message_Hader": ["Информация"], 
+"Options_Messages": [""]
+}
+]

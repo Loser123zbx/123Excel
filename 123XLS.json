@@ -1,0 +1,11 @@
+{
+    "version": 1.6,
+    "output_path": "temp_xml",
+    "None_value_show": "无",
+    "language": "中文:中国",
+    "debug": "True",
+    "using_round_way": "ROUND_HALF_UP",
+    "decimal_places_num": "3",
+    "init_subjects_row": "1",
+    "init_students_col": "3"
+}

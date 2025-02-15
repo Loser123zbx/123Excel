@@ -1,6 +1,5 @@
 r"""
-
-
+python ---3.7.9----coding
 """
 
 #导入模块
@@ -201,6 +200,7 @@ class Main(wx.Frame):
                 self.text_input_path.SetValue(path)
         except Exception as e:
             error_message(e)
+            
     
     def max_score(self,event):
         try:
@@ -414,7 +414,14 @@ class Laucher(wx.Frame):
         os.system('start https://gitee.com/loser123zbx/123-xls')
 
     def Convert_(self, event):
-        pass
+        wx.MessageBox(
+        """
+抱歉！这个版本(v1.6)的123Excel不支持文件转换
+请使用老版本或者使用其他文件转换网站，例如：
+https://cdkm.com/cn/
+这个问题大概会在下个版本修复
+        """
+)
 
     def Setting_(self, event):
         app = wx.App()

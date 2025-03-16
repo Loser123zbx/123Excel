@@ -258,7 +258,7 @@ class Main(wx.Frame):
         self.min_zdy = wx.TextCtrl(panel,pos=(920,40),size=(80,20))
         self.min_zdy.SetValue('100')
 
-        self.grid = wx.grid.Grid(panel,pos=(300, 80), size=(1280, 900))
+        # self.grid = wx.grid.Grid(panel,pos=(300, 80), size=(1280, 900))
 
         self.return_box = wx.ListBox(panel,pos=(1580,50),size=(400,1030),style=wx.LC_REPORT)
 
@@ -299,6 +299,9 @@ class Main(wx.Frame):
         try:
             file_path=self.text_input_path.GetValue()  
             value = zxc.read_excel(excel_file=file_path,sheet=self.sheet.GetValue())
+            if self.grid:
+                self.grid.Destroy()
+            self.grid = wx.grid.Grid(pos=(300, 80), size=(1280, 900))
             self.grid.CreateGrid(round(eval(f'{len(value)}{SRA}') ), round(eval(f'{len(value[0])}{SRC}')))
             for i in range(len(value)):
                 for j in range(len(value[0])):
@@ -318,6 +321,7 @@ class Main(wx.Frame):
 
 
     def get_path(self,event):
+        panel = wx.Panel(self)
         try:
             input_path_box = getattr(self, 'input_path_box', None)
             if input_path_box is None:
@@ -337,6 +341,11 @@ class Main(wx.Frame):
             self.sheet.SetSelection(0)
             file_path = self.text_input_path.GetValue()
             value = zxc.read_excel(excel_file=file_path,output_dir=OUTPUT_PATH ,sheet=self.sheet.GetValue())
+            try:
+                self.grid.Destroy()
+            except Exception as e:
+                pass
+            self.grid = wx.grid.Grid(panel,pos=(300, 80), size=(1280, 900))
             self.grid.CreateGrid(round(eval(f'{len(value)}{SRA}')), round(eval(f'{len(value[0])}{SRC}')))
             for i in range(len(value)):
                 for j in range(len(value[0])):
@@ -346,8 +355,11 @@ class Main(wx.Frame):
                         self.grid.SetCellValue(i, j, str(value[i][j]))
             self.return_box.Insert(f"{file_path}>>>", self.return_box.GetCount())
             self.Refresh()
-        except:
-            pass
+        except Exception  as e:
+            f = open("crash_log.txt", "a", encoding='utf-8')
+            f.write(f"{get_time()}{str(e)}\n")
+            f.close()
+
 
 
     def max_score(self,event):
